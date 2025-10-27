@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 py-32 text-center">
         <div className="animate-fade-in space-y-6">
           <h1 className="text-5xl md:text-7xl font-bold">
-            <span className="gradient-text">Hi, I'm</span>
+            <span className="gradient-text">Hi, I&apos;m</span>
             <br />
             <span className="dark:text-white">Yichen Zhang</span>
           </h1>

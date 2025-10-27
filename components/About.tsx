@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 const About: React.FC = () => {
   return (
@@ -12,27 +13,29 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-lg text-gray-700 dark:text-gray-300">
             <p>
-              I'm a Computer Science graduate student at Northeastern University with a passion
-              for building robust, scalable software solutions. I'm actively seeking full-time
+              I&apos;m a Computer Science graduate student at Northeastern University with a passion
+              for building robust, scalable software solutions. I&apos;m actively seeking full-time
               Software Engineering positions as a 2026 New Grad.
             </p>
             <p>
               My journey in tech has been driven by curiosity and a desire to solve real-world
-              problems. I enjoy working on both frontend and backend development, and I'm
+              problems. I enjoy working on both frontend and backend development, and I&apos;m
               particularly interested in modern web technologies, system design, and creating
               seamless user experiences.
             </p>
             <p>
-              When I'm not coding, you'll find me exploring new technologies, contributing to
+              When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to
               open-source projects, or working on personal projects that challenge me to learn
               something new.
             </p>
           </div>
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-              <img 
+              <Image 
                 src="/IMG_6865.JPG" 
                 alt="Yichen Zhang" 
+                width={600}
+                height={600}
                 className="w-full h-full object-cover"
               />
             </div>

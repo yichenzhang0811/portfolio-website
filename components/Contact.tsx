@@ -10,8 +10,8 @@ const Contact: React.FC = () => {
           <span className="gradient-text">Get In Touch</span>
         </h2>
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-          I'm currently seeking full-time Software Engineering opportunities for 2026.
-          Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          I&apos;m currently seeking full-time Software Engineering opportunities for 2026.
+          Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
           <a
