@@ -15,14 +15,14 @@ const projects: Project[] = [
     title: 'Petcare Microservices E-commerce Platform',
     description: 'Designed and implemented a microservices architecture with 6 core services (user, product, order, notification, etc.) using Spring Boot 3.5 + Spring Cloud, enabling modular scalability and fault isolation. Integrated RabbitMQ for asynchronous, event-driven communication and containerized with Docker Compose for one-click deployment.',
     technologies: ['Spring Boot', 'Spring Cloud', 'RabbitMQ', 'Docker', 'Docker Compose', 'Microservices'],
-    github: 'https://github.com',
+    github: 'https://github.com/yichenzhang0811/petcare-microservices',
     live: 'https://example.com',
   },
   {
     title: 'Travel Photo-Sharing Web Application',
     description: 'Developed a full-stack web application using React.js for the frontend and Express.js/Node.js for the backend. Implemented JWT authentication, designed scalable MongoDB schemas with Mongoose, and deployed to AWS EC2. Features responsive UI with interactive maps for geographic photo discovery.',
     technologies: ['React.js', 'Express.js', 'Node.js', 'MongoDB', 'Mongoose', 'JWT', 'AWS EC2', 'REST API'],
-    github: 'https://github.com',
+    github: 'https://github.com/yichenzhang0811/TravelCloud-Web',
     live: 'https://example.com',
   },
 ];
