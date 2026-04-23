@@ -16,7 +16,7 @@ const experiences: ExperienceItem[] = [
     title: 'Software Engineering Intern',
     company: 'TalkHere.AI Inc',
     location: 'Remote',
-    duration: 'Sep 2025 - Present',
+    duration: 'Sep 2025 - Dec 2025',
     description: [
       'Designed and implemented a conversation memory module that extracts and stores user information from AI dialogues, enabling personalized and context-aware interactions across sessions, adopted by 240+ users shortly after launch',
       'Developed an automatic topic generation system that analyzes conversation transcripts, extracts key terms, and assigns semantic titles to conversations, reducing search time by ~80% when browsing conversation history',
