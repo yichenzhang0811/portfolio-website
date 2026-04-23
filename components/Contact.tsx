@@ -10,12 +10,12 @@ const Contact: React.FC = () => {
           <span className="gradient-text">Get In Touch</span>
         </h2>
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-          I&apos;m currently seeking full-time Software Engineering opportunities for 2026.
+          I&apos;m currently open to full-time Software Engineering opportunities and can start immediately.
           Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
           <a
-            href="mailto:zhang.yichen2@northeastern.edu"
+            href="mailto:yichenz.dev@gmail.com"
             className="card flex-1 w-full md:w-auto hover:transform hover:scale-105 transition-all duration-300"
           >
             <svg
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
             </svg>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Email</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              zhang.yichen2@northeastern.edu
+            yichenz.dev@gmail.com
             </p>
             <span className="text-blue-600 dark:text-blue-400 font-medium">Send a message →</span>
           </a>

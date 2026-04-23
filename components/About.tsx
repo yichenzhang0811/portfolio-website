@@ -14,8 +14,8 @@ const About: React.FC = () => {
           <div className="space-y-6 text-lg text-gray-700 dark:text-gray-300">
             <p>
               I&apos;m a Computer Science graduate student at Northeastern University with a passion
-              for building robust, scalable software solutions. I&apos;m actively seeking full-time
-              Software Engineering positions as a 2026 New Grad.
+              for building robust, scalable software solutions. I&apos;m currently open to full-time
+              Software Engineering roles and available to start immediately.
             </p>
             <p>
               My journey in tech has been driven by curiosity and a desire to solve real-world

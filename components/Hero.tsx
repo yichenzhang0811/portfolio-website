@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             CS Graduate Student at Northeastern University
           </p>
           <p className="text-lg md:text-xl text-gray-500 dark:text-gray-500">
-            Seeking Full-Time Software Engineering Positions (2026 New Grad)
+            Open to full-time software engineering roles, available to start immediately
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a href="#projects" className="btn-primary">

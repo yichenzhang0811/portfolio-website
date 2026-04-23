@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Yichen Zhang - Software Engineer</title>
-        <meta name="description" content="CS Graduate Student at Northeastern University seeking Software Engineering opportunities for 2025-2026" />
+        <meta name="description" content="CS graduate student at Northeastern University open to full-time software engineering opportunities and available to start immediately" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

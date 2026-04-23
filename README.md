@@ -1,84 +1,50 @@
-# Portfolio Website
+# Yichen Zhang - Portfolio
 
-A modern, responsive portfolio website for Yichen Zhang (章怡辰), CS graduate student at Northeastern University.
+This is my personal portfolio site.
 
-## Features
+I built it with Next.js + TypeScript to showcase my projects, experience, and contact info in one clean place.
 
-- 🎨 Modern UI with Tailwind CSS
-- 🌙 Dark mode support
-- 📱 Fully responsive design
-- ⚡ Built with Next.js and React
-- 🎭 Smooth scrolling navigation
-- ✨ Subtle animations and transitions
+## What's inside
 
-## Tech Stack
+- Intro / About
+- Project highlights
+- Experience
+- Contact links (Email, LinkedIn, GitHub)
+- Dark mode
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
+## Tech stack
 
-## Getting Started
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-First, install the dependencies:
+## Run locally
 
 ```bash
 npm install
-# or
-yarn install
-```
-
-Then, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000).
 
-## Deployment
+## Edit content
 
-### Deploy to Vercel
+Most content is in `components/`:
 
-The easiest way to deploy is using the [Vercel Platform](https://vercel.com/new):
+- `components/Hero.tsx`
+- `components/About.tsx`
+- `components/Projects.tsx`
+- `components/Experience.tsx`
+- `components/Contact.tsx`
 
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Deploy with one click
+## Deploy
 
-The site will be available at `your-username.vercel.app`
+I deploy this site on Vercel.  
+If you fork it, the fastest path is:
 
-## Project Structure
-
-```
-├── components/        # React components
-│   ├── Navbar.tsx    # Navigation with theme toggle
-│   ├── Hero.tsx      # Hero section
-│   ├── About.tsx     # About me section
-│   ├── Projects.tsx  # Projects showcase
-│   ├── Experience.tsx # Work experience
-│   ├── Contact.tsx   # Contact information
-│   ├── Footer.tsx    # Footer
-│   └── ThemeProvider.tsx # Dark mode provider
-├── pages/            # Next.js pages
-│   ├── _app.tsx      # App wrapper
-│   └── index.tsx     # Main page
-├── styles/           # Global styles
-│   └── globals.css   # Tailwind directives
-└── public/           # Static assets
-```
-
-## Customization
-
-1. **Update Personal Information**: Edit the components in `/components` directory
-2. **Add Projects**: Update the `projects` array in `components/Projects.tsx`
-3. **Add Experience**: Update the `experiences` array in `components/Experience.tsx`
-4. **Change Colors**: Modify the Tailwind config in `tailwind.config.js`
-5. **Update Contact Links**: Edit the links in `components/Contact.tsx`
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
+1. Push to GitHub
+2. Import repo into [Vercel](https://vercel.com/new)
+3. Deploy
 
